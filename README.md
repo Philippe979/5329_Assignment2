@@ -172,24 +172,6 @@ Results/adaptive_protocol/path_dependent_phase/path_phase_occupancy_summary.csv
 Results/adaptive_protocol/path_dependent_phase/PATH_DEPENDENT_PHASE_SUMMARY.md
 ```
 
-## Reports
-
-Project writeups and analysis notes:
-
-```text
-Dynamic_Robustness_Report.md
-Dynamic_Robustness_Mechanism_Analysis.md
-CIFAR10_DYNAMIC_ROBUSTNESS_PLAN.md
-```
-
-`Dynamic_Robustness_Mechanism_Analysis.md` explains the two main meanings of
-dynamic robustness:
-
-```text
-1. Training-process measurement
-2. Mechanism-level diagnosis across CNN, MLP, and Transformer architectures
-```
-
 ## Repository Hygiene
 
 Large generated files are intentionally ignored:
