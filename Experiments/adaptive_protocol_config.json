@@ -1,0 +1,33 @@
+{
+  "description": "Adaptive dynamic robustness protocol for CIFAR-10 models.",
+  "epsilon_candidates": [
+    0.00392156862745098,
+    0.00784313725490196,
+    0.01568627450980392,
+    0.023529411764705882,
+    0.03137254901960784
+  ],
+  "calibration_epsilon": 0.00784313725490196,
+  "calibration_checkpoint_grid_size": 100,
+  "final_checkpoint_grid_size": 100,
+  "analysis_clean_threshold": 0.3,
+  "peak_ratio": 0.95,
+  "tau_ra": 0.05,
+  "tau_clean": 0.7,
+  "tau_formation_width": 0.05,
+  "tau_late_width": 0.05,
+  "min_peak_progress": 0.05,
+  "zero_robustness_threshold": 0.01,
+  "scoring_weights": {
+    "clean_valid": 2.0,
+    "robust_observable": 2.0,
+    "formation_width": 1.5,
+    "late_width": 1.0,
+    "stability_width": 1.0,
+    "not_zero_final": 1.0,
+    "not_too_early_peak": 0.5,
+    "mid_strength_bonus": 0.5,
+    "too_weak_penalty": 1.0,
+    "too_strong_penalty": 1.5
+  }
+}
